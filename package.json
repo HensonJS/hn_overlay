@@ -1,0 +1,21 @@
+{
+  "name": "hn_overlay",
+  "version": "0.0.1",
+  "description": "Overlay Component",
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      [
+        "jadeify",
+        {
+          "basedir": "node_modules/"
+        }
+      ]
+    ],
+    "extension": [
+      "coffee"
+    ]
+  },
+  "author": "aeksco@gmail.com",
+  "license": "MIT"
+}
